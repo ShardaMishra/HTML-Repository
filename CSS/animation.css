@@ -1,0 +1,151 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+/*
+**  @keyframes
+** animation-name
+** animation-duration
+** animation-delay
+** animation-iteration-count
+** animation-direction
+** animation-fill-mode
+** animation-timing-function
+** animation
+*/
+
+.div-1{
+    width:200px;
+    height:200px;
+    background-color: crimson;
+    animation-name: div-1;
+    animation-duration: 4s; 
+}
+
+.div-2{
+    width:200px;
+    height:200px;
+    background-color: cyan;
+    color: white;
+    font-size: 24px;
+    animation-name: div-2;
+    animation-duration: 4s;
+    margin:20px;
+    text-align: center;
+    line-height: 200px;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: reverse;
+    animation-direction: alternate-reverse;
+    /* animation-fill-mode: backwards; */
+
+}
+
+@keyframes div-1 {
+    /* from{ 
+        background-color: crimson;
+    }
+    to{
+        background-color: darkcyan;
+    } */
+
+    0% {
+        background-color: crimson;
+    }
+    25%{
+        background-color: darkblue;
+    }
+    50%{
+        background-color: darkmagenta;
+    }
+    75%{
+        background-color: darkred;
+    }
+    100%{ 
+        background-color: deeppink;
+    }
+}
+@keyframes div-2 {
+    0%{
+        transform: rotateZ(0deg);
+
+    }
+    25%{font-size: 36px;
+      
+      
+    }
+    50%{
+        background-color: chartreuse;
+        
+    }
+    75%{
+    }
+    100%{
+        
+        
+        
+        transform: rotateZ(360deg);
+
+    }
+}
+
+.div-3{
+    width:200px;
+    height:200px;
+    background-color: chocolate;
+    margin:20px;
+    position:relative;
+    animation-name: div-3;
+    animation-duration: 4s;
+    animation-fill-mode: backwards;
+    animation-timing-function: linear;
+   
+}
+.div-4{
+    width:200px;
+    height:200px;
+    background-color: seagreen;
+    margin:20px;
+    font-size: 0px;
+    text-align: center;
+    line-height: 200px;
+    color:white;
+    position:relative;
+    animation: div-4 2s ease-in-out infinite;
+}
+
+
+
+@keyframes div-3{
+    0%{top:0px;
+    }
+    50%{
+        top:200px;
+        background-color: fuchsia;
+    }
+    100%{
+        top:0;
+        background-color: darkblue;
+    }
+}
+@keyframes div-4{
+    0%{
+        left:0;
+    }
+    50%{
+        left:600px;
+        background-color: seagreen;
+        border-radius: 50%;
+        font-size: 36px;
+
+    }
+    100%{
+        left:0px;
+    }
+
+}
+
+

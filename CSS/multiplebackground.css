@@ -1,0 +1,29 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+
+/* background | background-size | background-position | background-repeat | background-color | background-origin | background-clip | background-attachment | background */
+
+
+#div-1{
+    background-image: url(../image/background.jpg);
+    background-repeat: no-repeat ;
+    
+    background-size: cover;
+    height: 600px;
+    width: 600px;
+    color: white;
+    padding: 20px;
+    border: 2px solid red;
+
+
+}
+#div-1 h2{
+    margin-bottom: 20px;
+}
+#div-1 p{
+    color: darkturquoise;
+    font-size: 24px;
+}

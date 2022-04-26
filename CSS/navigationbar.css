@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    
+    
+    list-style-type: none;
+    width: 25%;
+    background-color: aqua;
+    position: fixed;
+    height: 100%;
+  
+}
+li a{
+    text-decoration: none;
+    background-color: rgb(250, 215, 215);
+    display: block;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+   
+    
+    
+}
+li{
+    border-bottom: 2px solid blue;
+}
+li:last-child{
+    border-bottom: none;
+}
+li a:hover{
+background-color:red;
+color: white;
+
+}
+
+
+li a.active-home{
+    background-color: aqua;
+
+}
+.content{
+    width: 25%;
+    margin-left: 25%;
+    padding: 10px;
+
+}

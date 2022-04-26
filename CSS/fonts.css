@@ -1,0 +1,26 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.serif {
+    margin: 20px;
+    font-family: 'Dancing Script', cursive;
+
+    font-weight: 500;
+    font-style: normal;
+    font-variant: normal;
+    font-size: 40px;
+
+
+
+}
+span{
+    font-style:italic;
+}
+.font-effect-fire{
+    font-family: "sofia",sans-serif;
+}

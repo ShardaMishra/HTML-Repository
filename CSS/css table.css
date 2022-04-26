@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+table,th,td{
+   /* border: 1px solid red;*/
+
+
+}
+table{
+    width: 50%;
+    border-collapse: collapse;
+    caption-side: top;
+    empty-cells: hide;
+    table-layout: auto;
+
+
+}
+th,td{
+    height: 50px;
+  /*  border-bottom: 2px solid #ddd;*/
+
+}
+
+tr:hover{
+   /* background-color: royalblue;*/
+}
+
+tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+th{
+    background-color: #04aa60;
+    color: white;
+}
+td{
+    /* text-align: center;
+ */
+ /*vertical-align: bottom;*/
+ padding: 10px;
+
+}
+

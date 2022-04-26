@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.border-1{
+    border:100px solid red;
+    padding: 10px;
+    border-image-source: url(../image/background.jpg);
+    border-image-repeat: repeat;
+    border-image-slice:100;
+    border-image-width: 10px;
+}

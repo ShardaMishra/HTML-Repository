@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+    padding: 0;
+}
+/*
+* Linear gradient ( left,right,top,bottom,diagonal,angle)
+* Radial gradients( shape/size-closest-side,farthest-side,closest-corner,farthest-corner)
+* Conic gradients
+*/
+
+div{
+    margin: 20px;
+}
+
+.div-1{
+   height: 200px;
+   width: 600px;
+
+   border: 1px solid red;
+   background-image: linear-gradient(to right bottom,  yellow , red,blue,black,crimson,hotpink) ;
+   text-align: center;
+   font-size: 24px;
+}
+.div-2{
+    height: 200px; 
+    width: 600px;
+    border: 1px solid red;
+    background-image:linear-gradient( crimson,fuchsia,black);
+    text-align: center;
+    font-size: 24px;
+}
+.div-3{
+    height: 200px; 
+    width: 600px;
+    border: 1px solid red;
+    background-image:linear-gradient(cyan,darkblue,orange);
+    text-align: center;
+    font-size: 24px;
+}
+.div-4{
+    height: 200px; 
+    width: 600px;
+    border: 1px solid red;
+    background-image: repeating-linear-gradient(280deg,red , blue 10%,green 20%);
+    text-align: center;
+    font-size: 24px;
+}
+.div-5{
+    height: 200px; 
+    width: 600px;
+    border: 1px solid red;
+    background-image:radial-gradient( red,blue,yellow,crimson,orange,green);
+    text-align: center;
+    font-size: 24px;
+}
+.div-6{
+    height: 200px; 
+    width: 600px;
+    border: 1px solid red;
+    background-image:conic-gradient( red,blue,green,yellow,crimson);
+    text-align: center;
+    font-size: 24px;
+}
+   
+
+.div-7{
+    height: 400px; 
+    width: 400px;
+    border: 1px solid red;
+    background-image:conic-gradient(red 0deg, red 90deg ,yellow 90deg, yellow 180deg, green 180deg, green 270deg,blue 270deg, blue 360deg);
+    text-align: center;
+    font-size: 24px;
+    border-radius: 50%;
+}
+   
+
+   

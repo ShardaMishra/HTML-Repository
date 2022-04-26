@@ -1,0 +1,143 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav-main{
+    width:100%;
+    
+    
+   
+}
+.logo-content{
+    font-size: 24px;
+    background-color: aquamarine;
+    padding-left: 10px;
+
+    
+
+}
+.logo-content span{
+    color: red;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0px 5px;
+    
+}
+.fa-bars{
+    margin-right: 15px;
+}
+.search-nav{
+   
+    padding: 20px;
+
+    
+}
+.search-nav .search-body{
+    width: 514px;
+     margin: auto;
+   
+}
+  
+.search-bar{
+    width: 400px;
+    height: 36px;
+   
+    display: inline-block;
+    margin-right: 10px;
+}
+.search-bar input{
+    border: none;
+    width: 400px;
+    height: 40px;
+    background-color:#d4d4d4;
+    border-radius: 30px;
+
+}
+.search-bar input:hover{
+    background-color: mediumspringgreen;
+}
+.search-button{
+width: 80px;
+    height: 40px;
+    background-color: slateblue;
+    color: white;
+   
+    border-radius: 30px;
+    border: none;
+   
+
+}
+.search-button:hover{
+    box-shadow: 0 0 5px gray;
+}
+
+
+
+    
+.link{
+    background-color: limegreen;
+    font-size: 18px;
+}
+.link a{
+    text-decoration: none;
+    color: white;
+    padding: 16px;
+    display: inline-block;
+    
+    
+}
+.link a:hover{
+    background-color: gray;
+}
+.link .active{
+    background-color: aquamarine;
+}
+.header ul{
+    list-style-type: none;
+    width: 200px;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+.header li a{
+    display: block;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+.header li a.main-list{
+    color: orange;
+    font-weight: bold;
+    font-size: 20px;
+}
+.header li a.selected-content{
+    color: red;
+    font-weight: 800;
+}
+.header li a:hover{
+    color:crimson;
+
+}
+.content{
+    margin:  15px 15px 0px 215px;
+   
+    background-color: grey;
+    padding: 15px;
+    border-radius: 20px;
+
+}
+.content h2{
+
+}
+    
+.content .img-1{
+    margin: 20px 0px;
+    border-radius: 20px;
+}
+.content p{
+  margin-bottom: 15px;
+  font-size: 18px;
+  color: white;
+}

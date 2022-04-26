@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+/*
+*text-justify
+* text-overflow: clip | ellipsis
+* word-wrap: normal |  break-word
+* word-break: break-all | keep-all |normal
+*writing-mode: horizontal-tb | vertical-rl | vertical-lr
+*/
+
+.text-1{
+    width: 200px;
+    border: 1px solid black;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.text-2{
+    width: 100px;
+    border: 1px solid black;
+    word-wrap: break-word;
+    
+}
+.text-3{
+    width: 100px;
+    border: 1px solid black;
+    word-break: break-all;
+    
+}
+.text-4{
+    width: 150px;
+    border: 1px solid black;
+    writing-mode:vertical-lr
+}

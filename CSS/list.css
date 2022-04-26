@@ -1,0 +1,29 @@
+ol{
+    background-color: aqua;
+    padding: 20px;
+}
+ul{
+    background-color: aquamarine;
+    padding: 20px;
+}
+
+ol li{
+    background-color: burlywood;
+    color: blue;
+    padding: 5px;
+    margin-left: 35px;
+    font-size: 30px;
+    font-weight: 700px;
+    list-style-type: 1;
+    list-style-position: outside;
+
+}
+ul li{
+    background-color: chartreuse;
+    color: red;
+    padding: 5px;
+    margin: 35px;
+    font-size: 30px;
+    font-weight: 700px;
+    list-style-type: circle;
+}

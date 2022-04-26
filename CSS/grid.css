@@ -1,0 +1,86 @@
+/** Grid properties
+* Grid-template-rows
+* Grid-template-columns
+* Grid-template-areas
+* Grid-template
+* Justift-items
+* Align-items
+* Justify-contents
+* Align-content
+* Justify-self
+* Align-self
+* order
+*/
+
+/** Grid gap:
+* Grid-row-gap
+* Grid-column-gap
+* Grid-gap
+
+*/
+
+/** Grid item positioning properties:
+* Grid-auto-rows
+* Grid-auto-columns
+* Grid-auto-flow
+* Grid-row-start
+* Grid-row-end
+* Grid-row
+* Grid-column-start
+* Grid-column-end
+* Grid-column
+* Grid-area
+
+*/
+
+/* Case Sensitive */
+.container{
+    background: white;
+    width:700px;
+    height:800px;
+    margin:70px 0 0 50px;
+    display: grid;
+    grid-template-columns: 100px 200px 50px;
+    grid-template-rows: 25% 100px;
+    grid-gap: 20px 50px;
+    /* grid-column-gap: 60px;
+    grid-row-gap: 20px; */
+
+}
+
+.items1{
+    background: orangered;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.items2{
+    background: yellowgreen;
+}
+.items3{
+    background: slateblue;
+}
+.items4{
+    background: hotpink;
+}
+.items5{
+    background: royalblue;
+}
+.items6{
+    background: goldenrod;
+}
+.items7{
+    background: red;
+}
+.items8{
+    background: green;
+    grid-row-start: 1;
+    grid-column-start: 2;
+}
+.items9{
+    background:coral ;
+    grid-row-start: 3;
+    grid-column-start: 3;
+}
+.items10{
+    background: crimson;
+}

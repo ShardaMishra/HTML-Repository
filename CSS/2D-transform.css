@@ -1,0 +1,73 @@
+*{
+    margin: 80px 10px;
+    padding: 0;
+}
+
+/*
+  * translate ()
+  * rotate()
+  * ScaleX()
+  *ScaleY()
+  *Scale()
+  *SkewX()
+  *SkewY()
+  *Skew()
+  *matrix()
+
+*/
+
+.div-1{
+    width: 200px;
+    height: 200px;
+    background-color: cyan;
+    transition: 4s;
+}
+
+ .div-1:hover{
+    transform: translate(50px,100px);
+}
+
+ 
+    
+.div-2{
+    width: 200px;
+    height: 200px;
+    background-color: crimson;
+   
+   transition: 10s;
+  
+}
+.div-2:hover{
+    transform: rotate(340deg);
+}
+.div-3{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    margin: 150px;
+   
+   transform: scale(2,1);
+}
+.div-4{
+    width: 200px;
+    height: 200px;
+    background-color: greenyellow;
+    margin: 150px;
+   
+  
+   transition: 4s;
+}
+.div-4:hover{
+    transform:skew(0deg, 180deg);
+
+}
+.div-5{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin: 150px;
+   transition: 4s;
+}
+.div-5:hover{
+    transform: matrix(  0,1,2,0,0,0);
+}

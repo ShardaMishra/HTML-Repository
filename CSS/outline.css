@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+/*
+outline-style
+*outline-color
+*outline-width
+*outline-offset
+*outline
+*/
+.outline{
+    width: 400px;
+    height: 200px;
+    margin: 50px;
+    border: 2px solid red;
+    /*outline-style: dashed;
+    outline-color: blue;
+    outline-width: 5px;
+    outline-offset: 10px; 
+    */
+    outline: 5px dashed blue;
+    outline-offset: 10px;
+    background-color: aqua;
+    padding: 10px 0px 0px 10px;
+
+}

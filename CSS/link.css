@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    padding: 0;
+
+}
+.link3{
+    margin: 20px;
+    color: brown;
+    font-size: 36px;
+    text-decoration: none;
+
+}
+.link3:visited{
+    color: blue;
+}
+.link4:visited{
+    color: red;
+
+}
+.name:link{
+    color: red;
+    margin: 40px;
+    border: 1px solid red;
+    padding: 20px;
+    text-decoration: none;
+}
+.name:visited{
+    color: green;
+}
+.name:hover{
+    font-size: 36px;
+    background-color: red;
+}
+.name:active{
+    color: black;
+}
+.link5{
+    color: blueviolet;
+    font-size: 50px;
+    font-weight: 900px;
+    text-decoration: none;
+}
+.link5:visited{
+color: red;
+}
+.css{
+    color: aqua;
+    text-decoration: none;
+    cursor: text;
+
+}
+.css:visited{
+    color: black;
+
+}
+.css:hover{
+    font-size: 36px;
+    background-color: red;
+}
+.css:active{
+    text-decoration: underline;
+    text-decoration-color: blue;
+    text-decoration-thickness: 5px;
+}

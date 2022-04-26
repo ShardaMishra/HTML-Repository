@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.heading{
+    margin: auto;
+    text-align: center;
+    
+}
+
+
+.center{
+    border: 2px solid red;
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    
+}
+.image{
+    width: 250px;
+    margin:50px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.vert-center{
+    border: 2px solid red;
+    padding: 50px 0px;
+    width: 400px;
+    text-align: center; 
+    margin: auto;
+
+    
+}
+.line-center{
+    border: 2px solid blue;
+    height: 100px;
+    width: 400px;
+    text-align: center;
+    margin: auto;
+}
+.line-center p{
+    display: inline-block;
+}

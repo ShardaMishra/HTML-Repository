@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+p{
+    border:2px solid black;
+    margin-top: 50px;
+    margin-right: 200px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+h2{
+    border: 2px solid red;
+    margin: auto ;
+}

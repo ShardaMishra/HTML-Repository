@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding:0;
+}
+.div-1{
+    width: 200px;
+    height: 150px;
+    border: 1px solid black;
+    background-color: hotpink;
+    border-radius: 20px;
+    margin:10px;
+}
+.div-2{
+
+    width: 200px;
+    height: 150px;
+    border: 1px solid black;
+    /* background-color: deepskyblue; */
+    background-image: url(../image/background.jpg);
+    background-size: cover;
+     border-bottom-right-radius:  50px;
+    margin:10px;
+}
+.div-3{
+    width: 200px;
+    height: 150px;
+    border: 1px solid black;
+    background-color: lightseagreen;
+    border-radius:0px  20px 0 20px;
+    margin: 10px;
+
+}
+.div-4{
+    width: 200px;
+    height: 150px;
+    border: 1px solid black;
+    background-color: springgreen;
+    border-radius: 20px 20px 20px 0 ;
+    margin: 10px;
+}

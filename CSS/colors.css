@@ -1,0 +1,108 @@
+/* colors name
+*RGB
+*HEX
+*HSL
+*RGBA
+*HSLA
+
+*/
+
+
+
+
+
+  *{ margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    background-color: rgb(198, 65, 225);
+}
+
+
+
+
+
+
+
+.tomato{
+    width: 200px;
+    height: 50px;
+    background-color: tomato;
+    color: white;
+    text-align: center;
+}
+
+.pink{
+    width: 200px;
+    height: 50px;
+    background-color: hotpink;
+    color: white;
+
+}
+
+.orange{
+    width: 200px;
+    height: 50px;
+    background-color: orange;
+    color: white;
+    
+}
+
+.blue{
+    width: 200px;
+    height: 50px;
+    background-color: blue;
+    color: white;
+    
+}
+
+.red{
+    width: 200px;
+    height: 50px;
+    background-color: red;
+    color: white;
+    
+}
+
+.green{
+    width: 200px;
+    height: 50px;
+    background-color: green;
+    color: white;
+    
+}
+/*RGB colors*/
+.rgbcolors{
+    background-color: rgb(255,0,0);
+    height: 50px;
+    width: 200px;
+    color: rgb(255,255,255);
+}
+/* RGBA colors*/
+
+.rgbacolors{
+    width: 200px;
+    height: 50px;
+    background-color: rgba(255,99,71,0.8);
+}
+/* HEX colors*/
+.hexcolors{
+    width: 200px;
+    height: 50px;
+    background-color: #bbff00;
+}
+/* HSL colors*/
+.hslcolors{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(255, 0, 140);
+    color: hsl( 0,100%,100%);
+}
+/* HSLA colors*/
+.hslacolors{
+    width: 200px;
+    height: 50px;
+    background-color: rgba(0, 204, 255, 1);
+    color: hsla(0,100%,100%,1);
+}

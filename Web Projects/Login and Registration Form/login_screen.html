@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Login and Registration Form</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"/>
+  </head>
+  <body>
+    <div class="container">
+      <div class="forms login-screen">
+          <div class="form login">
+              <span class="title">Login</span>
+
+              <form action="#">
+                  <div class="input-field">
+                      <input type="text" placeholder="Enter your Email" required />
+                      <i class="uil uil-envelope icon>"></i>
+                  </div>
+                  <div class="input-field">
+                      <input type="password" class="password" placeholder="Enter your password" required />
+                      <i class="uil uil-lock icon"></i>
+                      <i class="uil uil-eye-slash showHidePw"></i>
+                  </div>
+                  <div class="checkbox-text">
+                      <div class="checbox-content">
+                          <input type="checkbox" id="logcheck" />
+                          <label for="logcheck" class="text">Remember me</label>
+                      </div>
+                      <a href="#" class="text">Forgot Password?</a>
+                  </div>
+                  <div class="input-field button">
+                      <input type="button" value="Login Now" />
+                  </div>
+              </form>
+              <div class="login-signup">
+                  <span class="text">
+                      Don't have an account?
+                      <a href="register_screen.html" class="text signup-link">Signup now</a>
+                  </span>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <script>
+      const container = document.querySelector(".container"),
+          pwShowHide = document.querySelectorAll(".showHidePw"),
+          pwFields = document.querySelectorAll(".password"),
+          signUp = document.querySelector(".signup-link"),
+          login = document.querySelector(".login-link");
+
+      pwShowHide.forEach(eyeIcon => {
+          eyeIcon.addEventListener("click", () => {
+              pwFields.forEach(pwField => {
+                  if (pwField.type === "password") {
+                      pwField.type = "text";
+
+                      pwShowHide.forEach(icon => {
+                          icon.classList.replace("uil-eye-slash", "uil-eye");
+                      })
+                  } else {
+                      pwField.type = "password";
+
+                      pwShowHide.forEach(icon => {
+                          icon.classList.replace("uil-eye", "uil-eye-slash");
+                      })
+                  }
+              })
+          })
+      })
+
+  </script>
+  </body>
+</html>
+          

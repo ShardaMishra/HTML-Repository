@@ -1,0 +1,35 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+body{
+    text-align: center;
+    padding:20px;
+}
+.tooltip-1{
+ position: relative;
+ display: inline-block;
+}
+
+.tooltip-1 .tooltip-text{
+    visibility: hidden;
+    width:120px;
+    background-color: mediumblue;
+    color: white;
+    border-radius: 10px;
+    padding:5px 0;
+    margin-right: 10px;
+    position:absolute;
+    z-index: 1;
+    top:-5px;
+    right:100%;
+}
+
+.tooltip-1:hover .tooltip-text{
+    visibility: visible;
+
+}
+
+

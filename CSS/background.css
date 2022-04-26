@@ -1,0 +1,34 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+/* Background properties
+*background-color
+*background-image
+*background-repeat
+*background-attachment
+*background-position
+*background
+*/
+body{
+    background-color: rgb(129, 124, 124);
+}
+
+
+
+
+
+.backgroundcolor{
+    width: 200px;
+    height: 50px;
+    background-color: navy;
+    color: white;
+}
+body{
+    background-image: url("../image/background.jpg");
+    background-repeat: repeat-y;
+}
+.backgroundattchment{
+    
+}

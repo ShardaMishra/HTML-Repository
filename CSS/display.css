@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+/*
+dispkay: block | inline | inline-block | flex | inline-flex | grid | inline-grid | inherit | none | initial | table | table-cell | table-row 
+*/
+
+
+.div-1{
+    background-color: aqua;
+    display: inline;
+}
+h2{
+    background-color: blueviolet;
+    display: inline;
+}
+h3{
+    background-color: brown;
+    display: inline-block;
+    height: 100px;
+}
+p{
+    background-color: aquamarine;
+}
+.div-2{
+    background-color: bisque;
+}
+#one{
+    background-color: chartreuse;
+}
+.two{
+    background-color: chocolate;
+    display: inline-block;
+    width:100px;
+    height: 150px;
+    
+}
+#one span{
+    background-color: coral;
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+}
+
+
+    

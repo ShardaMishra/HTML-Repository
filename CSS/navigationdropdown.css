@@ -1,0 +1,16 @@
+*{
+    margin:0;
+    padding:0;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    background-color: aquamarine;
+    list-style-type: none;
+}
+li {
+    background-color: coral;
+    display: block;
+    float: left;
+}
